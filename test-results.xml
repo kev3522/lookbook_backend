@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="2.178" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2017-11-16T23:27:42" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Validate Article functionality" timestamp="2017-11-16T23:27:42" tests="1" file="/Users/kevin/comp431_backend/src/articles.spec.js" failures="0" time="1.285">
+    <testcase name="Validate Article functionality should unit test to validate POST /article" time="1.285" classname="should unit test to validate POST /article">
+    </testcase>
+  </testsuite>
+  <testsuite name="Validate Headline functionality" timestamp="2017-11-16T23:27:44" tests="1" file="/Users/kevin/comp431_backend/src/profile.spec.js" failures="0" time="0.893">
+    <testcase name="Validate Headline functionality should unit test to validate PUT /headline" time="0.893" classname="should unit test to validate PUT /headline">
+    </testcase>
+  </testsuite>
+</testsuites>
