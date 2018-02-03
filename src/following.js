@@ -8,7 +8,10 @@ const getFollowing = (req, res) => {
         let query = user ? {username: user} : {username: req.user.username}
         console.log(query)
         db.collection('profiles').find(query).toArray(function(err, user) {
-            res.send({username:req.user.username, following:user[0].following})
+            if (user) {
+                console.log(user)
+                res.send({username:req.user.username, following:user[0].following})
+            }
         })
         db.close()
     })
